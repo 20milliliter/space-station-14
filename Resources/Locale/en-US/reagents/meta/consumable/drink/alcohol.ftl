@@ -133,6 +133,9 @@ reagent-desc-driest-martini = Only for the experienced. You think you see sand f
 reagent-name-erika-surprise = erika surprise
 reagent-desc-erika-surprise = The surprise is, it's green!
 
+reagent-name-espresso-martini = espresso martini
+reagent-desc-espresso-martini = Gin, coffee, and... coffee. The perfect shift-starter.
+
 reagent-name-gargle-blaster = Pan-Galactic Gargle Blaster
 reagent-desc-gargle-blaster = Whoah, this stuff looks volatile!
 

@@ -791,6 +791,22 @@
 
 - type: entity
   parent: DrinkGlass
+  id: DrinkEspressoMartiniGlass
+  suffix: espresso martini
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: EspressoMartini
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/espressomartiniglass.rsi
+    state: icon
+
+- type: entity
+  parent: DrinkGlass
   id: DrinkFourteenLokoGlass
   suffix: fourteen loko
   components:

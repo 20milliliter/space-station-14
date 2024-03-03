@@ -371,6 +371,18 @@
     ErikaSurprise: 6
 
 - type: reaction
+  id: EspressoMartini
+  reactants:
+    Gin:
+      amount: 3
+    Coffee:
+      amount: 2
+    CoffeeLiqueur:
+      amount: 1
+  products:
+    EspressoMartini: 6
+
+- type: reaction
   id: EthanolBreakdown
   source: true
   requiredMixerCategories:

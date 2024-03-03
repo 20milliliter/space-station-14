@@ -923,6 +923,32 @@
   fizziness: 0.15
 
 - type: reagent
+  id: EspressoMartini
+  name: reagent-name-espresso-martini
+  parent: BaseAlcohol
+  desc: reagent-desc-espresso-martini
+  physicalDesc: reagent-physical-desc-thick
+  flavor: irishcoffee
+  color: "#562200"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/espressomartiniglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 3
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 2
+      - !type:AdjustReagent
+        reagent: Ethanol
+        amount: 0.15
+      - !type:AdjustReagent
+        reagent: Theobromine
+        amount: 0.05
+
+- type: reagent
   id: GargleBlaster
   name: reagent-name-gargle-blaster
   parent: BaseAlcohol
