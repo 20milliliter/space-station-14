@@ -1772,6 +1772,29 @@
   fizziness: 0.5
 
 - type: reagent
+  id: WhiteDorf
+  name: reagent-name-white-dorf
+  parent: BaseAlcohol
+  desc: reagent-desc-white-dorf
+  physicalDesc: reagent-physical-desc-frosty
+  flavor: whitedorf
+  color: "#BBBBBB"
+  metamorphicSprite:
+    sprite: Objects/Consumable/Drinks/whitedorfglass.rsi
+    state: icon_empty
+  metamorphicMaxFillLevels: 2
+  metamorphicFillBaseName: fill-
+  metamorphicChangeColor: false
+  metabolisms:
+    Drink:
+      effects:
+      - !type:SatiateThirst
+        factor: 1
+      - !type:AdjustTemperature
+        amount: -1
+  fizziness: 0.5
+
+- type: reagent
   id: WhiteRussian
   name: reagent-name-white-russian
   parent: BaseAlcohol

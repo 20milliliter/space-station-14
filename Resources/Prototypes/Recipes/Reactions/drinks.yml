@@ -1209,6 +1209,18 @@
     Oxygen: 1
 
 - type: reaction
+  id: WhiteDorf
+  reactants:
+    ManlyDorf:
+      amount: 3
+    Gin:
+      amount: 1
+    Ice:
+      amount: 2
+  products:
+    WhiteDorf: 6
+
+- type: reaction
   id: WhiteGilgamesh
   reactants:
     Beer:

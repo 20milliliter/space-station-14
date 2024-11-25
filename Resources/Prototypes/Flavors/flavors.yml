@@ -1040,6 +1040,11 @@
   description: flavor-complex-rocksandstones
 
 - type: flavor
+  id: whitedorf
+  flavorType: Complex
+  description: flavor-complex-white-dorf
+
+- type: flavor
   id: spaceshroom
   flavorType: Base
   description: flavor-base-spaceshroom

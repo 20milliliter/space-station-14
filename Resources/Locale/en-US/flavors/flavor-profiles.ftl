@@ -261,6 +261,7 @@ flavor-complex-rubberneck = like synthetics
 flavor-complex-irish-car-bomb = like a spiked cola float
 flavor-complex-themartinez = like violets and lemon vodka
 flavor-complex-cogchamp = like brass
+flavor-complex-white-dorf = like a dark, cold cave in a mountain
 flavor-complex-white-gilgamesh = like lightly carbonated cream
 flavor-complex-antifreeze = warm
 

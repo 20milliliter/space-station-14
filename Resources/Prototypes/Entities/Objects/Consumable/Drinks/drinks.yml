@@ -2266,6 +2266,22 @@
 
 - type: entity
   parent: DrinkGlass
+  id: DrinkWhiteDorfGlass
+  suffix: white dorf
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: WhiteDorf
+          Quantity: 30
+  - type: Icon
+    sprite: Objects/Consumable/Drinks/whitedorfglass.rsi
+    state: icon
+
+- type: entity
+  parent: DrinkGlass
   id: DrinkWineGlass
   suffix: wine
   components:

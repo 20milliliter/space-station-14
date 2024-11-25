@@ -262,6 +262,9 @@ reagent-desc-whiskey-cola = Whiskey, mixed with cola. Surprisingly refreshing.
 reagent-name-whiskey-soda = whiskey soda
 reagent-desc-whiskey-soda = For the more refined griffon.
 
+reagent-name-white-dorf = white dorf
+reagent-desc-white-dorf = A manly dorf with a cavernous chill.
+
 reagent-name-white-russian = white russian
 reagent-desc-white-russian = That's just, like, your opinion, man...
 
